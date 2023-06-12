@@ -14,7 +14,6 @@ const Postcode = () => {
     const data = await fetchNearestPostcodes(postcode);
     setDetails(data);
   }, [postcode]);
-  console.log(details);
 
   useEffect(() => {
     fetchPostcodes();
