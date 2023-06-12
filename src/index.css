@@ -1,0 +1,18 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary: #f0f0f0;
+  --secondary-50: #c5c0c0;
+  --secondary-200: #787373;
+  --secondary-300: rgba(104, 101, 101, 0.829);
+  --secondary-400: rgba(104, 101, 101, 0.692);
+  --secondary-500: #242424;
+  background-color: var(--secondary-500);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}

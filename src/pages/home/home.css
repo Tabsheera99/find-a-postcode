@@ -1,0 +1,17 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+  color: var(--primary);
+}
+
+.button-container {
+  margin: 20px;
+}

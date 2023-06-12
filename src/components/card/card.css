@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: var(--secondary-400);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  min-width: 200px;
+  min-height: 110px;
+}
+
+.grid-container:hover {
+  background-color: var(--secondary-300);
+}
+
+.title {
+  font-weight: bold;
+}
+
+.semicolon {
+  position: relative;
+}
+
+.semicolon::before {
+  content: ":";
+  position: absolute;
+  top: 1em;
+  left: -0.5em;
+  margin-top: -1em;
+}

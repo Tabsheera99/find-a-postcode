@@ -1,0 +1,18 @@
+.nearest-postcodes-container {
+  display: flex;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.postcode-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.font-color {
+  color: var(--primary);
+}
