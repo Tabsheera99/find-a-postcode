@@ -34,6 +34,16 @@ const Select = ({
           primary: "black",
         },
       })}
+      styles={{
+        control: (baseStyles) => ({
+          ...baseStyles,
+          cursor: "pointer",
+        }),
+        option: (baseStyles) => ({
+          ...baseStyles,
+          cursor: "pointer",
+        }),
+      }}
     />
   );
 };

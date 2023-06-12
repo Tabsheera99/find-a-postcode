@@ -29,7 +29,7 @@ const Home = () => {
         loadOptions={loadOptions}
         onChange={handleChange}
         cacheOptions
-        placeholder="Enter a postcode"
+        placeholder="Enter a postcode (E.g. CB4 0GF)"
         isClearable
       />
       <div className="button-container">
